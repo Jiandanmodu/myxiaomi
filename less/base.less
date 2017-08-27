@@ -1,0 +1,49 @@
+/*css初始化*/
+/*去掉默认的margin和padding*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,img { margin:0; padding:0;}
+/*去掉input等聚焦时的蓝色边框*/
+input,button { border:none; padding:0;margin:0;outline-style:none; }
+/*去掉列表样式*/ 
+ul, ol { list-style:none; }
+ /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+img {border:0; vertical-align:middle; } 
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#b0b0b0;
+    background:#fff
+}
+/*去掉底部下划线，改变字体颜色*/ 
+a {color:#b0b0b0; text-decoration:none; }
+a:hover{text-decoration:none;}
+  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+/*清楚浮动*/
+.clearfix:before,.clearfix:after {  
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+/*边框样式*/ 
+.bt{
+    border-top: 1px solid #ccc;
+}
+.br{
+    border-right: 1px solid #ccc;
+}
+.bb{
+    border-bottom: 1px solid #ccc;
+}
+.bl{
+    border-left: 1px solid #ccc;
+}
+/*版心*/ 
+.w{
+    width: 1226px;
+    margin:0 auto;
+}
+
